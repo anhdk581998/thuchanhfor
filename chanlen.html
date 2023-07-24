@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="chanle"></div>
+
+<script>
+  let a= +prompt("nhập a")
+  let b= +prompt("nhập b")
+  let chanle= ''
+  for (let i = a; i <= b; i++) {
+    if (i%2===0){
+      chanle += '<h2>' +i +'</h2>'
+    }else
+      chanle += '<h1>' +i +'</h1>'
+  }
+document.getElementById("chanle").innerHTML= chanle
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="h"></h1>
+<script>
+  let a= prompt("nhập a")
+  let b= prompt("nhập b")
+  let c = ''
+  for (let i = a; i <= b; i++) {
+      c+= '<h1>' +i+ '</h1>'
+      document.getElementById("h").innerHTML = c
+  }
+</script>
+</body>
+</html>

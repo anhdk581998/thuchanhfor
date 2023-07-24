@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="chan">
+
+</div>
+<script>
+  let a= +prompt("nhập a")
+  let b= +prompt("nhập b")
+  let result = ''
+  for (let i = a; i <=b ; i++) {
+    if (i%2===0){
+      result += i + '</br>'
+      document.getElementById("chan").innerHTML = result
+    }
+
+  }
+</script>
+</body>
+</html>

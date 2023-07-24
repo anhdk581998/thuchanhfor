@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Tổng các số chia 5 dư 2 từ a đến b.</title>
+</head>
+<body>
+<div id="tong">
+
+</div>
+<script>
+  let a = + prompt("nhập a")
+  let b = + prompt("nhập b")
+  let tong = 0
+  for (let i = a; i <= b; i++) {
+    if(i%5==2) {
+      tong += i
+    }
+  }
+  document.getElementById("tong").innerHTML=tong
+</script>
+</body>
+</html>
